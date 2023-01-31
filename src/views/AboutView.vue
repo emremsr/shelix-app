@@ -1,5 +1,18 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <h1 class="text-center text-7xl text-orange-400">Hello World</h1>
   </div>
 </template>
+
+<script>
+export default {
+  name: "HelloWorld",
+  props: {
+    msg: String,
+  },
+};
+</script>
+
+<style >
+
+</style>
